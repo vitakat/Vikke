@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+
+
+#video {
+    display: block;
+    margin: 0 auto;
+    height:100%;
+    weight:100%;
+    /* margin-top: 10em; */
+    animation: video-animatie 1.2s 1;
+}
+
+
+#video {
+bottom:400px;
+}
+
+@keyframes video-animatie {
+  0%   { opacity: 0%; }
+  100% { opacity: 100%; }
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* margin-bottom: 900px; */
+}
+
+div img {
+    width: 600px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin: 0 50px;
+    animation: knop-animatie 1.2s 1;
+}
+
+#vikke{
+position: relative;    
+left:600px;
+    height:50%;
+    width:50%;
+    margin-left: 8em;
+    margin-top:100px;
+}
+
+@keyframes knop-animatie {
+  0%   { opacity: 0%; margin: 0px}
+  50%   { opacity: 0%; margin: 0px}
+  100% { opacity: 100%; margin: 0 50px}
+}
+
+div img:hover{
+    transform: scale(1.2);    
+}
+
+#vikke{
+/* margin-bottom:500px; */
+}
