@@ -30,7 +30,7 @@ div {
 }
 
 div img {
-    width: 600px;
+    width: 300px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     margin: 0 50px;
